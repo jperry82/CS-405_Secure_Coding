@@ -32,7 +32,11 @@ This repository includes a collection of security-focused documentation and codi
 6. **Encryption Techniques**  
    *Archive: Perry_Joshua_Module5_EncryptionCoding.zip*  
    - Demonstrates secure encryption practices for data at rest, in transit, and in use.  
-   - Utilizes libraries like OpenSSL for robust cryptographic implementations.
+   - **Enhancements include:**
+     - Migration from plaintext storage to SQLite database integration for secure data persistence.
+     - Implementation of parameterized SQL queries to prevent SQL injection vulnerabilities.
+     - Creation of structured query functions for secure data retrieval.
+     - Design of an expandable database schema for future authentication features.
 
 7. **Static Code Analysis**  
    *Archive: Perry_Joshua_Module5_StaticCode.zip*  
@@ -64,6 +68,6 @@ This repository includes a collection of security-focused documentation and codi
 #### **Acknowledgments**
 This repository reflects coursework and practical application of secure development principles, leveraging resources and frameworks such as OWASP, OpenSSL, and SEI CERT Coding Standards to enhance software resilience.
 
---- 
+---
 
 This README provides guidance for utilizing the repository's resources to build secure and resilient systems.
